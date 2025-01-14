@@ -39,4 +39,4 @@ It also incorporates **Firebase** for data storage and **authentication** for us
 ---
 
 ## 📸 Resources
-![Resource](https://drive.google.com/uc?export=view&id=1M-1higuBY9YmiaU1MTL_8ofgNMQFTuG4)
+![Resource](https://drive.google.com/uc?export=view&id=1ITscALRUHhtzb-NISd9s4B1wHwvh4LS0)
