@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FireBase</title>
-    <!-- Link config.js which initializes Firebase -->
     <script src="../js/config.js" type="module" defer></script>
+    <link rel="stylesheet" href="../css/login-register.css" />
 </head>
-
 <body>
-    <form id="registerForm">
-        <input id="email" type="email" placeholder="Email" required>
-        <input id="password" type="password" placeholder="Password" required>
-        <button id="registerBtn" type="submit">Register</button>
-    </form>
+    <div class="container">
+        <form id="registerForm">
+            <h2>Login</h2>
+            <input id="email" type="email" placeholder="Email" required />
+            <input id="password" type="password" placeholder="Password" required />
+            <p><a href="register.html">Not a member yet?</a></p>
+            <button id="registerBtn" type="submit">Login</button>
+        </form>
+    </div>
 
-    <!-- Link register.js -->
     <script src="../js/login.js" type="module"></script>
 </body>
-
 </html>

@@ -17,6 +17,7 @@ registerForm.addEventListener("submit", async (e) => {
             const user = userCredential.user;
             alert("Login Success!");
             console.log(user);
+            window.location.href = "home.html";
         })
         .catch((error) => {
             // Handle errors

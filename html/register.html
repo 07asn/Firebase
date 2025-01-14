@@ -6,16 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FireBase</title>
     <script src="../js/config.js" type="module" defer></script>
-    <link rel="stylesheet" href="../css/register.css">
+    <link rel="stylesheet" href="../css/login-register.css">
 
 </head>
 
 <body>
-    <form id="registerForm">
+
+    <div class="container">
+        <form id="registerForm">
+            <h2>Register Now</h2>
+            <input id="email" type="email" placeholder="Email" required>
+            <input id="password" type="password" placeholder="Password" required>
+            <p><a href="login.html">Already Have an Account?</a></p>
+            <button id="registerBtn" type="submit">Register</button>
+        </form>
+    </div>
+
+    <!-- <form id="registerForm">
         <input id="email" type="email" placeholder="Email" required>
         <input id="password" type="password" placeholder="Password" required>
         <button id="registerBtn" type="submit">Register</button>
-    </form>
+    </form> -->
 
     <script src="../js/register.js" type="module"></script>
 </body>
