@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/home.css">
+    <script src="../js/home.js" type="module" defer></script>
+    <title>Fake Store API</title>
+</head>
+<body>
+    <header>
+        <h1>Fake Store API</h1>
+        <button id="toggle-form-btn">Show Form</button>
+    </header>
+
+    <main id="product-container">
+        <!-- Products render here -->
+    </main>
+
+    <div id="form-modal" style="display: none;">
+        <form id="product-form">
+            <button type="button" id="close-modal-btn" class="close-btn">×</button>
+
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required />
+
+            <label for="price">Price:</label>
+            <input type="text" id="price" name="price" required />
+
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" required></textarea>
+
+            <label for="image">Image URL:</label>
+            <input type="text" id="image" name="image" required />
+
+            <button type="button" id="submit-item-btn">Submit</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; Fake Store API</p>
+    </footer>
+</body>
+</html>
