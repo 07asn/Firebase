@@ -17,12 +17,12 @@ It also incorporates **Firebase** for data storage and **authentication** for us
 ---
 
 ## 📚 Topics Covered
-- **Create**: Adding new data dynamically using forms and rendering it in the DOM. (Products can be added and stored in Firebase)
-- **Read**: Fetching and displaying data from Firebase and dynamically rendering it in the DOM.
-- **Update**: Modifying existing data (e.g., product details) and updating it in Firebase and the DOM.
-- **Delete**: Removing data (e.g., products) from Firebase and reflecting the change in the DOM.
-- **Firebase Integration**: Using Firebase to store and manage product data in a NoSQL database and enabling real-time synchronization.
-- **Authentication**: Implementing user login and registration using Firebase Authentication to secure access to the application.
+- **Create**
+- **Read**
+- **Update**: 
+- **Delete**
+- **Firebase Integration**
+- **Authentication**
 
 ---
 
@@ -37,6 +37,18 @@ It also incorporates **Firebase** for data storage and **authentication** for us
 6. Replace `firebaseConfig` values with your project's configuration values.
 7. **Authentication**: For login and registration functions, go to **Documentation > Authentication** in Firebase.
 8. **CRUD Operations**: For Firestore database CRUD functions, refer to **Documentation > Firestore**.
+
+---
+
+## 📸 Result
+
+![Login Page](https://drive.google.com/uc?export=view&id=191DltBCzju88jmJhcYIHzBK94TwpaRIn)
+
+![Register Page](https://drive.google.com/uc?export=view&id=1H3WwNw9N6Ct5ozh16o2GY7jEKkFKsXMb)
+
+![Products Page](https://drive.google.com/uc?export=view&id=19jljoMKpdhI11bSWOjbHv9wJIlRZoy0Q)
+
+![Product Form](https://drive.google.com/uc?export=view&id=1W5bMB1HzY1Y-QCRLOJw6ZOTo1Rta7fRq)
 
 ---
 
