@@ -30,11 +30,13 @@ It also incorporates **Firebase** for data storage and **authentication** for us
 
 ### Setup Firebase:
 1. Go to [Firebase Console](https://console.firebase.google.com/) and create a new project.
-2. Add Firebase SDK to your project:
-   ```html
-   <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
-   <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js"></script>
-   <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js"></script>
+2. Create a new Project.
+3. Create a new Collection in Firestore Database.
+4. Go to Project Settings.
+5. Go to CDN SDK setup and configuration.
+6. Replace `firebaseConfig` values with your project's configuration values.
+7. **Authentication**: For login and registration functions, go to **Documentation > Authentication** in Firebase.
+8. **CRUD Operations**: For Firestore database CRUD functions, refer to **Documentation > Firestore**.
 
 ---
 
